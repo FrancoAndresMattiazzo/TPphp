@@ -1,0 +1,49 @@
+.bg-nav{
+    background-color: rgb(78, 68, 68);
+}
+.bg-img-portada{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/ba1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    object-fit: cover;
+}
+.bg-transparent{
+    background-color:transparent;
+}
+.bg-black2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.carousel-caption1 {
+    width: 40%;
+    position: absolute;
+    right:0%;
+    bottom: 20%;
+    left: 50%;
+    padding-top: 1.25rem;
+    padding-bottom: 3.25rem;
+    color: #fff;
+    text-align: right;
+  }
+
+  .overlay{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  .img-cards{
+    max-height: 221px !important; 
+  }
+
+  @media (max-width: 967px)  {
+    #container-ubicacion {
+        display: block;
+    }
+    
+  }
