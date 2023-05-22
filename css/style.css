@@ -41,9 +41,10 @@
     max-height: 221px !important; 
   }
 
-  @media (max-width: 967px)  {
-    #container-ubicacion {
-        display: block;
-    }
-    
+  .bg-ubicacion{
+    background-image: url('../assets/honolulu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
   }
